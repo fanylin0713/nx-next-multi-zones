@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Index() {
   /*
    * Replace the elements below with your own.
@@ -11,7 +13,7 @@ export default function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome ec-store 👋
+              Welcome ec-store 🏠
             </h1>
           </div>
 
@@ -33,7 +35,7 @@ export default function Index() {
                 </svg>
                 <span>You&apos;re up and running</span>
               </h2>
-              <a href="#commands"> What&apos;s next? </a>
+              <a href="/cart">Go to Cart</a>
             </div>
             <div className="logo-container">
               <svg
